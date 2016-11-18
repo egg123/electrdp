@@ -1,0 +1,13 @@
+--- client.js.org	2015-07-09 16:55:13.000000000 +0900
++++ client.js	2016-11-18 17:38:02.697262293 +0900
+@@ -165,8 +165,8 @@
+ 			
+ 			// emit infos event
+ 			this.socket.emit('infos', {
+-				ip : ip, 
+-				port : 3389, 
++				ip : ip.split(/:/)[0],
++				port : ip.split(/:/)[1] || 3389,
+ 				screen : { 
+ 					width : this.canvas.width, 
+ 					height : this.canvas.height 

@@ -1,0 +1,11 @@
+{
+  "name": "electrdp",
+  "version": "0.1.0",
+  "description": "The electrdp is a rdp client implemented with electron.",
+  "author": "egg123 <eglua@yahoo.co.jp>",
+  "homepage": "https://github.com/egg123/",
+  "main": "app/main.js",
+  "dependencies": {
+    "mstsc.js": "^0.2.4"
+  }
+}

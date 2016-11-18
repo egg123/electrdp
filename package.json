@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "electron src",
+    "pack:mac": "build --mac",
+    "pack:linux": "build --linux",
+    "pack:win": "build --win --x64"
+  },
+  "directories": {
+    "app": "src"
+  },
+  "build": {
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "type": "link",
+          "y": 220,
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 220,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "iconUrl": "https://raw.githubusercontent.com/egg123/icons/master/electrdp.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^1.4.6",
+    "electron-builder": "^7.9.0",
+    "electron-rebuild": "^1.2.1"
+  }
+}
