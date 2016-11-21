@@ -6,6 +6,6 @@
   "homepage": "https://github.com/egg123/",
   "main": "app/main.js",
   "dependencies": {
-    "mstsc.js": "^0.2.4"
+    "mstsc.js": "https://github.com/egg123/mstsc.js/tarball/d146c97ac75069cbeb96eedf4daf4b2a20c8d1e3"
   }
 }

@@ -8,11 +8,6 @@ Install last release:
 or
 `npm install`
 
-## client.patch
-It is patch for mstsc.js to support other than the default 3389.
-The patch target is below.
-`src/node_modules/mstsc.js/client/js/client.js`
-
 ## Run
 enter electrdp project's directory tree and run below code
 `npm start`
