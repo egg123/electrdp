@@ -43,3 +43,10 @@ function createWindow() {
     });
 }
 
+/**
+ * experimental code for websockify
+ */
+var websockify = require("../lib/websockify");
+
+// listening on port 15900, connecting to VNC server running on localhost. But localhost:5900 is NG, must be <ipaddress>:<port>. Maybe a bug in websockify.
+var proxy = websockify({source: ":15900", target: "127.0.0.1:5900"});
