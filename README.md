@@ -17,7 +17,7 @@ for linux:
 `npm run pack:linux`
 
 for windows:
-`npm run pack:win32`
+`npm run pack:win`
 
 for mac:
 `npm run pack:mac`
